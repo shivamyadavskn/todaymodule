@@ -1,5 +1,36 @@
 body{
-    background-color: rebeccapurple;
-    text-align: center;
-    font-size: 25px;
+background-color:#CDCDCD;
+}
+
+#student{
+    background-color: black;
+    color: white;
+    height: 100px;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+
+
+#button-first>div{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+}
+
+table,th,tr,td{
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+
+#flexibl{
+    display: inline;
+}
+
+#searchInput{
+    margin-top: 10px;
+    border-radius: 0px;
+    height: 40px;
+    border: 2px solid black;
+    background-color:#CDCDCD;
 }

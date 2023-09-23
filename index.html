@@ -1,13 +1,51 @@
-<html>
-    <head>
-        <title>
-            Hello india
-        </title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>
-            Hello India
-        </h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="./bootstraps/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container" id="student">
+        <h2>Student Portal</h2>
+    </div>
+    <div class="container">
+        <span id="flexibl">
+            <input type="email" class="col-11" id="searchInput" placeholder="Search">
+            <button type="button" class="btn btn-dark col" id="searchButton">Search</button>
+        </span>
+    </div>
+
+    <div class="container">
+        <div class="row" id="button-first">
+            <div class="col btn btn-dark btn-lg sortAZ">Sort A->Z</div>
+            <div class="col btn btn-dark btn-lg sortZA">Sort Z->A</div>
+            <div class="col btn btn-dark btn-lg sortByMarks">Sort Marks</div>
+            <div class="col btn btn-dark btn-lg sortByPassing">Sort Passing</div>
+            <div class="col btn btn-dark btn-lg sortByClass">Sort By Class</div>
+            <div class="col btn btn-dark btn-lg sortByGender">Sort By Gender</div>
+        </div>
+    </div>
+
+    <table class="container">
+        <thead>
+            <tr>
+                <th class="col-1">ID</th>
+                <th class="col">Name</th>
+                <th class="col">Gender</th>
+                <th class="col">Class</th>
+                <th class="col">Marks</th>
+                <th class="col-1">Passing</th>
+                <th class="col-2">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    
+    <script src="./javascript.js"></script>
+</body>
 </html>
